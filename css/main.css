@@ -24,7 +24,12 @@ footer {
 .footer-address-icon {
     padding-right: 10px;
 }
-
+/* -----Extras--- */
 .card-img-top {
-    height: 200px;
+    height: 30%;
+}
+
+.card-fluid {
+    width: 100%;
+    height: 150px;
 }
