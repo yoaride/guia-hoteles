@@ -24,6 +24,10 @@ footer {
 .footer-address-icon {
     padding-right: 10px;
 }
+
+.tab-content {
+    padding-top: 10px;
+}
 /* -----Extras--- */
 .card-img-top {
     height: 30%;
