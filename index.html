@@ -70,91 +70,111 @@
       </div>
       <hr>
 
-      <img src="./images/Baner.jpg" class="card-img" alt="banner">
+      <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/Baner.jpg" alt="Primer slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/Baner2.jpg" alt="Segundo slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/Baner3.jpg" alt="Tercer slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+      </div>
 
       <div class="d-flex flex-wrap flex-row-reverse">
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="./images/Nonze.jpg" class="card-img-top" alt="hotel img">
           <div class="card-body">
-            <h5 class="card-title">Nonze Hostel, Pattaya</h5>
+            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Las primeras reservas tendran una cena gratis!">Nonze Hostel, Pattaya</h5>
             <h6 class="card-subtitle text-muted">Tailandia</h6>
             <p class="card-text">A una corta distancia a pie del centro comercial Central Festival Pattaya Beach, las cápsulas para dormir de Nonze Hostel tienen diseños rústicos, modernos o vintage. Los huéspedes pueden elegir entre dormir en una cápsula doble o individual, además de disfrutar de una sala de estar compartida y un restaurante en la terraza con vista al mar.</p>
             <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
           </div>
           <div>
-            <button class="btn btn-primary btn-reserva"><span class="oi oi-plus" style="padding-right: 10px;"></span>Reservar</button>
+            <button class="btn btn-primary btn-reserva" data-toggle="popover" title="Promociones" data-content="Consulta las promociones vigentes"><span class="oi oi-plus" style="padding-right: 10px;"></span>Reservar</button>
           </div>
         </div>
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="./images/DreamLodge.jpg" class="card-img-top" alt="hotel img">
           <div class="card-body">
-            <h5 class="card-title">Dream Lodge, Lavender</h5>
+            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Las primeras reservas tendran una cena gratis!">Dream Lodge, Lavender</h5>
             <h6 class="card-subtitle text-muted">Singapur</h6>
             <p class="card-text">El Dream Lodge está decorado con citas inspiradoras y sus cápsulas para dormir hacen que sea posible compartir una habitación sin que te molesten los diferentes horarios de los otros huéspedes. Pero lo que hace que este hotel sea popular tanto para los que viajan por negocios como por placer, es la conexión con el aeropuerto MRT de Lavender.</p>
             <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
           </div>
           <div>
-            <button class="btn btn-primary btn-reserva">Reservar</button>
+            <button class="btn btn-primary btn-reserva" data-toggle="popover" title="Promociones" data-content="Consulta las promociones vigentes">Reservar</button>
           </div>
         </div>
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="./images/AstilDotonbori.jpg" class="card-img-top" alt="hotel img">
           <div class="card-body">
-            <h5 class="card-title">Capsule Hotel Astil Dotonbori, Osaka</h5>
+            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Las primeras reservas tendran una cena gratis!">Capsule Hotel Astil Dotonbori, Osaka</h5>
             <h6 class="card-subtitle text-muted">Japón</h6>
             <p class="card-text">En el Capsule Hotel Astil Dotonbori está prohibido fumar en todas las cápsulas, algo que todavía es bastante inusual en los hoteles de Japón, y cuentan con un televisor de pantalla plana, puntos de carga para el celular, puertos USB y wifi gratis. Además, la recepción abierta las 24 horas, los casilleros y las cajas de seguridad con doble cerradura hacen que todo el hotel se sienta súper seguro.</p>
             <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
           </div>
           <div>
-            <button class="btn btn-primary btn-reserva">Reservar</button>
+            <button class="btn btn-primary btn-reserva" data-toggle="popover" title="Promociones" data-content="Consulta las promociones vigentes">Reservar</button>
           </div>
         </div>
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="./images/InBox.jpg" class="card-img-top" alt="hotel img">
           <div class="card-body">
-            <h5 class="card-title">InBox Capsule Hotel, San Petersburgo</h5>
+            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Las primeras reservas tendran una cena gratis!">InBox Capsule Hotel, San Petersburgo</h5>
             <h6 class="card-subtitle text-muted">Rusia</h6>
             <p class="card-text">A tan solo 15 minutos caminando del Jardín de Verano, el Museo Estatal Ruso y el castillo Mikhailovsky, el elegante InBox Capsule Hotel es un punto de partida ideal para explorar esta histórica ciudad rusa. Ubicado en el barrio de Tsentralny y con muchos restaurantes cerca, los huéspedes pueden disfrutar de la practicidad de un alojamiento tradicional con la sencillez de una experiencia en un hotel cápsula.</p>
             <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
           </div>
           <div>
-            <button class="btn btn-primary btn-reserva">Reservar</button>
+            <button class="btn btn-primary btn-reserva" data-toggle="popover" title="Promociones" data-content="Consulta las promociones vigentes">Reservar</button>
           </div>
         </div>
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="./images/StarAniseBoutiqueCapsules.jpg" class="card-img-top" alt="hotel img">
           <div class="card-body">
-            <h5 class="card-title">Star Anise Boutique Capsules, Colombo</h5>
+            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Las primeras reservas tendran una cena gratis!">Star Anise Boutique Capsules, Colombo</h5>
             <h6 class="card-subtitle text-muted">Sri Lanka</h6>
             <p class="card-text">Star Anise Boutique Capsules es un ejemplo de la evolución de los hoteles cápsula tradicionales. Los huéspedes pueden elegir alojarse en una de las cápsulas más tradicionales del hotel, pero muchas unidades ahora también cuentan con salas de estar, para que sea una experiencia más sociable para un grupo de amigos. Un beneficio es el alquiler gratuito de bicicletas, así los huéspedes pueden aprovechar las bicisendas cercanas.</p>
             <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
           </div>
           <div>
-            <button class="btn btn-primary btn-reserva">Reservar</button>
+            <button class="btn btn-primary btn-reserva" data-toggle="popover" title="Promociones" data-content="Consulta las promociones vigentes">Reservar</button>
           </div>
         </div>
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="./images/ThePodSydney.jpg" class="card-img-top" alt="hotel img">
           <div class="card-body">
-            <h5 class="card-title">The Pod Sydney, Sídney</h5>
+            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Las primeras reservas tendran una cena gratis!">The Pod Sydney, Sídney</h5>
             <h6 class="card-subtitle text-muted">Australia</h6>
             <p class="card-text">Todas las habitaciones del Pod Sydney tienen una cama doble, un velador, puntos de carga y aire acondicionado, lo que es ideal para los huéspedes que todavía no se acostumbraron al calor de los veranos australianos. Los viajeros pueden hacer sociales con otros huéspedes en la cocina compartida del hotel y otras instalaciones para cenar, o explorar los cafés y bares cercanos.</p>
             <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
           </div>
           <div>
-            <button class="btn btn-primary btn-reserva">Reservar</button>
+            <button class="btn btn-primary btn-reserva" data-toggle="popover" title="Promociones" data-content="Consulta las promociones vigentes">Reservar</button>
           </div>
         </div>
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <img src="./images/EaseSingleInn.jpg" class="card-img-top" alt="hotel img">
           <div class="card-body">
-            <h5 class="card-title">Ease Single Inn, Taichung</h5>
+            <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Las primeras reservas tendran una cena gratis!">Ease Single Inn, Taichung</h5>
             <h6 class="card-subtitle text-muted">Taiwán</h6>
             <p class="card-text">A una breve caminata del Museo Nacional de Bellas Artes de Taiwán, el Ease Single Inn está ubicado justo en el centro de Taichung en Taiwán. La recepción está abierta las 24 horas, se ofrecen artículos de aseo gratuitos (algo que no es muy usual en los hoteles cápsula), casilleros con espacio suficiente para dos bolsos grandes y el desayuno está incluido.</p>
             <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
           </div>
           <div>
-            <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+            <button type="button" class="btn btn-primary btn-reserva" data-toggle="popover" title="Promociones" data-content="Consulta las promociones vigentes">Reservar</button>
           </div>
         </div>
       </div>
@@ -215,8 +235,19 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+      $(function(){
+        $("[data-toggle='tooltip']").tooltip();
+        $("[data-toggle='popover']").popover();
+        $(".carousel").carousel({
+          interval: 2000
+        });
+      });
+    </script>
+
     <div class="modal fade" id="contacto" tabindex="-l" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
