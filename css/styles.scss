@@ -19,7 +19,7 @@ $green: #19ff2c;
 
 footer {
     @include bordesinternos( 10px, 10px, 0, 10px );
-    background-color: $green;
+    background-color: $yellow;
     @include margenes(10px, 0px)
 }
 
