@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <!-- build:css dist/index.css -->
+    <!-- build:css css/index.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
@@ -236,43 +236,11 @@
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- build:js dist/index.js -->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <script>
-      $(function(){
-        let bId = '';
-        $("[data-toggle='tooltip']").tooltip();
-        $("[data-toggle='popover']").popover();
-        $(".carousel").carousel({
-          interval: 2000
-        });
-
-        $('#contacto').on('show.bs.modal', function (e){
-          console.log('el modal contacto se está mostrando');
-          var n = e.relatedTarget.id.toString();
-          bId=n;
-          $('#'+bId).removeClass('btn-outline-success');
-          $('#'+bId).addClass('btn-primary');
-          $('#'+bId).prop('disabled',true);
-        });
-        $('#contacto').on('shown.bs.modal', function (e){
-          console.log('el modal contacto se mostró');
-        });
-        $('#contacto').on('hide.bs.modal', function (e){
-          console.log('el modal contacto se oculta');
-        });
-        $('#contacto').on('hidden.bs.modal', function (e){
-          console.log('el modal contacto se ocultó');
-          $('#'+bId).removeClass('btn-primary');
-          $('#'+bId).addClass('btn-outline-success');
-          $('#'+bId).prop('disabled',false);
-        });
-
-      });
-    </script>
+    <script src="js/index.js"></script>
     <!-- endbuild -->
 
   </body>
